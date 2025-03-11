@@ -1,0 +1,41 @@
+PLACEHOLDER IMAGES NEEDED FOR THE WEBSITE
+
+The following images are referenced in the code but need to be created or downloaded:
+
+1. hero-bg.jpg
+   - Used as the background for the hero section
+   - Should be a professional-looking image related to certificates or education
+   - Recommended size: 1920x1080px
+
+2. certificate-bg.jpg
+   - Used as the background for the generated certificates
+   - Should be a subtle, elegant pattern or texture
+   - Recommended size: 1200x900px
+
+3. template1.jpg
+   - Thumbnail for the "Classic Design" certificate template
+   - Should show a preview of a classic certificate design
+   - Recommended size: 400x300px
+
+4. template2.jpg
+   - Thumbnail for the "Modern Design" certificate template
+   - Should show a preview of a modern certificate design
+   - Recommended size: 400x300px
+
+5. template3.jpg
+   - Thumbnail for the "Elegant Design" certificate template
+   - Should show a preview of an elegant certificate design
+   - Recommended size: 400x300px
+
+You can create these images yourself or download suitable royalty-free images from websites like:
+- Unsplash (https://unsplash.com)
+- Pexels (https://pexels.com)
+- Pixabay (https://pixabay.com)
+
+For the certificate backgrounds and templates, you might want to search for:
+- "certificate background"
+- "diploma template"
+- "award background"
+- "elegant paper texture"
+
+Place all images in the same directory as your HTML, CSS, and JavaScript files. 
