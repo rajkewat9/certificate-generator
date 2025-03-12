@@ -8,7 +8,7 @@ The following images are referenced in the code but need to be created or downlo
    - Recommended size: 1920x1080px
 
 2. certificate-bg.jpg
-   - Used as the background for the generated certificates
+   - Used as the default background for the generated certificates
    - Should be a subtle, elegant pattern or texture
    - Recommended size: 1200x900px
 
@@ -27,6 +27,51 @@ The following images are referenced in the code but need to be created or downlo
    - Should show a preview of an elegant certificate design
    - Recommended size: 400x300px
 
+6. template4.jpg
+   - Thumbnail for the "Corporate Design" certificate template
+   - Should show a preview of a corporate certificate design
+   - Recommended size: 400x300px
+
+7. template5.jpg
+   - Thumbnail for the "Academic Design" certificate template
+   - Should show a preview of an academic certificate design
+   - Recommended size: 400x300px
+
+8. template6.jpg
+   - Thumbnail for the "Minimalist Design" certificate template
+   - Should show a preview of a minimalist certificate design
+   - Recommended size: 400x300px
+
+9. template1-bg.jpg
+   - Background for the "Classic Design" certificate template
+   - Should be a traditional, formal pattern or texture (e.g., parchment paper)
+   - Recommended size: 1200x900px
+
+10. template2-bg.jpg
+    - Background for the "Modern Design" certificate template
+    - Should be a contemporary, sleek pattern or gradient
+    - Recommended size: 1200x900px
+
+11. template3-bg.jpg
+    - Background for the "Elegant Design" certificate template
+    - Should be a sophisticated, refined pattern or texture
+    - Recommended size: 1200x900px
+
+12. template4-bg.jpg
+    - Background for the "Corporate Design" certificate template
+    - Should be a professional, business-oriented pattern or texture
+    - Recommended size: 1200x900px
+
+13. template5-bg.jpg
+    - Background for the "Academic Design" certificate template
+    - Should be a scholarly, educational pattern or texture
+    - Recommended size: 1200x900px
+
+14. template6-bg.jpg
+    - Background for the "Minimalist Design" certificate template
+    - Should be a clean, simple pattern or subtle texture
+    - Recommended size: 1200x900px
+
 You can create these images yourself or download suitable royalty-free images from websites like:
 - Unsplash (https://unsplash.com)
 - Pexels (https://pexels.com)
@@ -37,5 +82,9 @@ For the certificate backgrounds and templates, you might want to search for:
 - "diploma template"
 - "award background"
 - "elegant paper texture"
+- "parchment texture"
+- "minimalist background"
+- "corporate background"
+- "academic certificate"
 
 Place all images in the same directory as your HTML, CSS, and JavaScript files. 
