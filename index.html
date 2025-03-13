@@ -1,0 +1,309 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Certificate Generator</title>
+        <!-- Favicon -->
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        
+        <!-- Libraries for certificate generation -->
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-certificate"></i>
+                <span>Certificate Generator</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#templates">Templates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Create Professional Certificates</h1>
+                <p>Generate and download various types of certificates with our easy-to-use platform</p>
+                <a href="#certificates" class="cta-button">Get Started</a>
+            </div>
+        </header>
+
+        <section id="certificates" class="certificates-section">
+            <h2>Available Certificates</h2>
+            
+            <div class="category-header">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Student Life Certificates</h3>
+            </div>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Study Certificate</h3>
+                    <p>Create study certificates for academic purposes</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Bonafide Certificate</h3>
+                    <p>Generate bonafide certificates for current students</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Character Certificate</h3>
+                    <p>Certify the character and conduct of students</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+              
+                <div class="certificate-card">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <h3>Scholarship Certificate</h3>
+                    <p>Create certificates for scholarship recipients</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+            </div>
+            
+            <div class="category-header">
+                <i class="fas fa-briefcase"></i>
+                <h3>Professional Life Certificates</h3>
+            </div>
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <i class="fas fa-business-time"></i>
+                    <h3>Experience Certificate</h3>
+                    <p>Document professional work experience</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Internship Certificate</h3>
+                    <p>Certify completion of internship programs</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Skill Certification</h3>
+                    <p>Verify specialized skills and competencies</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Language Proficiency</h3>
+                    <p>Certify language proficiency levels</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-laptop-house"></i>
+                    <h3>Freelancing Certificate</h3>
+                    <p>Document freelance projects and achievements</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>ISO/Industry Certification</h3>
+                    <p>Create industry standard certifications</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Workplace Training</h3>
+                    <p>Certify completion of workplace training programs</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+                <div class="certificate-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Professional CV/Resume</h3>
+                    <p>Create ATS-friendly resumes for various career stages</p>
+                    <button class="generate-btn">Generate</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <h2>Enhanced Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Institute Branding</h3>
+                    <p>Add your institute's logo and name to personalize certificates</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-user"></i>
+                    <h3>User Photographs</h3>
+                    <p>Include recipient's photograph for enhanced verification</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Multiple Export Options</h3>
+                    <p>Download certificates as PDF, image, or print directly</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Create certificates on any device with our mobile-friendly interface</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="templates" class="templates-section">
+            <h2>Certificate Templates</h2>
+            <div class="template-grid">
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/3a4eb7/ffffff?text=Classic+Certificate" alt="Classic Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Classic Design</h3>
+                    <p>Traditional and professional layout</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/2c3e7a/ffffff?text=Modern+Certificate" alt="Modern Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Modern Design</h3>
+                    <p>Contemporary and sleek layout</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/5b6dc6/ffffff?text=Elegant+Certificate" alt="Elegant Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Elegant Design</h3>
+                    <p>Sophisticated and refined layout</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/1e2a54/ffffff?text=Corporate+Certificate" alt="Corporate Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Corporate Design</h3>
+                    <p>Professional business-oriented layout</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/ffd700/333333?text=Premium+Certificate" alt="Premium Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Premium Gold</h3>
+                    <p>Luxury gold-accented design</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/ffffff/333333?text=Minimalist+Certificate" alt="Minimalist Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Minimalist Design</h3>
+                    <p>Clean and simple modern layout</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/009688/ffffff?text=Professional+Certificate" alt="Professional Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Professional Teal</h3>
+                    <p>Modern professional design with teal accents</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/4a148c/ffffff?text=Academic+Certificate" alt="Academic Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Academic Purple</h3>
+                    <p>Scholarly design with purple theme</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/d32f2f/ffffff?text=Achievement+Certificate" alt="Achievement Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Achievement Red</h3>
+                    <p>Bold red design for significant achievements</p>
+                </div>
+                <div class="template-card">
+                    <div class="template-preview">
+                        <img src="https://via.placeholder.com/400x300/0277bd/ffffff?text=Technical+Certificate" alt="Technical Template">
+                        <div class="template-overlay">
+                            <button class="preview-btn">Preview</button>
+                        </div>
+                    </div>
+                    <h3>Technical Blue</h3>
+                    <p>Design for technical certifications</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Professional certificate generation platform for all your needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#templates">Templates</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/amitywalaraj"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <pre>Developer : <a href="https://www.instagram.com/amitywalaraj">Amity Wala Raj</a>              &copy; 2024 Certificate Generator. All rights reserved.            version 1.0.3.0.6</pre>
+            </div>
+        </footer>
+
+        <!-- Main Script -->
+        <script src="script.js"></script>
+    </body>
+    </html> 
